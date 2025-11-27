@@ -1,0 +1,22 @@
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+sentence-transformers
+
+# LangGraph
+langgraph
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+
+notebook
+bs4
+hf_xet
+bitsandbytes
+accelerate
