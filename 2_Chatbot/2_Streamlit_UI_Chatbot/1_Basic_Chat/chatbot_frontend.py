@@ -20,6 +20,7 @@ for message in st.session_state['message_history']:
     with st.chat_message(message['role']):
         st.text(message['content'])
 
+# 4. Inference
 user_input = st.chat_input("Ask the question to AI")
 
 if user_input:
